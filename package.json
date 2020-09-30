@@ -22,6 +22,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -53,6 +55,8 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "7.19.0",
     "eslint-plugin-react-hooks": "2.5.0",
+    "gh-pages": "^3.1.0",
     "prettier": "^2.1.1"
-  }
+  },
+  "homepage": "http://mdcj1234.github.io/algo-visualizer"
 }
